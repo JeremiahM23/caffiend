@@ -114,7 +114,7 @@ export default function CoffeeForm(props) {
                 </select>
             )}
             <h4>Add the cost ($)</h4>
-            <input className="w-full" type="number" value={coffeeCost} onChange={(e) => {
+            <input className="w-full" type="number" onChange={(e) => {
                 setCoffeeCost(e.target.value)
             }} placeholder="4.50" />
             <h4>Time since consumption</h4>

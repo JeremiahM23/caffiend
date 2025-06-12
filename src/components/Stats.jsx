@@ -43,12 +43,17 @@ export default function Stats() {
                 <StatCard title="Avg # of Coffees">
                     <p><span className="stat-text">{stats.average_coffees}</span></p>
                 </StatCard>
-                <StatCard title="Daily Cost ($)">
+                {/*<StatCard title="Daily Cost ($)">
                     <p>$ <span className="stat-text">{stats.daily_cost}</span></p>
-                </StatCard>
+                </StatCard>*/}
+            <div className="center-total-cost">
                 <StatCard title="Total Cost ($)">
-                    <p>$ <span className="stat-text">{stats.total_cost}</span></p>
+                    <div className="total-cost-card">
+                    <p>$ <span  className="stat-text">{stats.total_cost}</span></p>
+                    </div>
                 </StatCard>
+            </div> 
+
                 <table className="stat-table">
                     <thead>
                         <tr>
