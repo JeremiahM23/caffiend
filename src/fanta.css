@@ -91,11 +91,11 @@
         --color-info: '';
         --color-highlight: #fef9c3;
 
-        --gradient-start: #FFBF78;
-        --gradient-end: #80ffea;
+        --gradient-start: #a8ff78;
+        --gradient-end: #78ffd6;
 
         --border-primary: #29325b;
-        --border-secondary: #4B352A;
+        --border-secondary: #b57f5a;
         --border-highlight: #ffffff;
         --border-tertiary: '';
 
@@ -643,13 +643,7 @@ details[open] summary {
     opacity: 0.6;
 }
 
-.total-cost-card {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
+
 
 .center-total-cost {
     display:flex;
@@ -663,9 +657,6 @@ details[open] summary {
     max-width: 243px;              /* optional: how "extended" you want the card */
   }
 
-  .title-center  {
-    text-align: center;
-  }
 
 @media (min-width: 640px) {
     body {
